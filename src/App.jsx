@@ -1,4 +1,3 @@
-// src/App.jsx
 import { useEffect, useState } from 'react';
 import { supabase } from './supabaseClient';
 import LoginSignup from './components/LoginSignup';
@@ -41,8 +40,6 @@ function App() {
               Logout
             </button>
           </div>
-
-          {/* ✅ These must be present */}
           <AddDeviceForm />
           <DeviceMonitorWithAlarms />
           <TestEmailSender />
